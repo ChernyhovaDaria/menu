@@ -1,0 +1,133 @@
+html{
+    --fon: url(https://phonoteka.org/uploads/posts/2021-06/1624734498_30-phonoteka_org-p-oboi-na-rabochii-stol-stilnie-minimalizm-k-31.jpg);
+}
+.lists{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    color: rgb(13, 13, 14);
+}
+.WEBheader{
+    display: flex;
+    flex-direction: row;   
+    height: 100px;
+    background-image: var(--fon);
+}
+.mobailHeader{
+    display: none;
+}
+.menu{
+    flex-direction: column;
+    width: 20%;
+    height: 10%;
+    background-color: brown;
+    font-size: 40px;
+    display: none;
+}
+@media (max-width: 1000px){ 
+    .WEBheader{
+        display: none;
+    }   
+    .mobailHeader{
+        display: flex;
+        flex-direction: row;    
+        box-sizing:border-box;
+        justify-content: space-between;
+        height: 100px;
+        background-image: var(--fon);
+        font-size: 40px;
+    }   
+}
+.main{
+    display: flex;
+    background-image: var(--fon);
+    height: 1000px;
+    width: auto; 
+    background-position: 50% 50%;  
+}
+.logo{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items:center;
+}
+.nav{
+    display: flex;
+    justify-content:space-evenly;
+    width: 80%;
+    background-image:  var(--fon);
+}
+.Viveo{
+    display: flex;
+    background-color: blueviolet;
+    width: 20%;
+    justify-content: center;
+    align-items:center;
+    justify-content: center;
+    align-items:center;
+}
+
+.img{
+    display: flex;
+    background-color: darkgoldenrod;
+    width: 20%;
+    justify-content: center;
+    align-items:center;
+}
+.musiс{
+    display: flex;
+    background-color: darkred;
+    width: 20%; 
+    justify-content: center;
+    align-items:center;
+}
+
+.login{
+    display: flex;
+    width: 20%; 
+    justify-content: center;
+    align-items:center;
+}
+.buttonMenu{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+
+}
+
+@media (max-width: 1000px){
+    .Viveo{
+        width: 100%;
+    }
+    .img{
+        width: 100%;
+    }
+    .musiс{
+        width: 100%;
+    }
+    .login{
+        width: 100%;
+    }
+
+}
+
+.button{
+    width: 100%;
+    font-size: 40px;
+    border: none;
+    background-image: var(--fon);
+
+}
+
+.mainText{
+    width: 80%;
+}
+.icon{
+    display: flex;
+    background-image: url(https://st2.depositphotos.com/3905143/6174/v/950/depositphotos_61747587-stock-illustration-home-button-web-icon.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
